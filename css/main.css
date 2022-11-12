@@ -127,46 +127,7 @@ div#main-hero {
 }
 
 
-div.call-circle {
-    padding: .5rem;
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    background: linear-gradient(orange,black);
-    color: #fff;
-    font-size: 10px;
-    display: flex;
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .4);
-    transition: all ease-in-out .4s;
-}
 
-/* gig location hover */
-div.call-circle:hover {
-    box-shadow: none;
-    transform: scale(1.05);
-    background: linear-gradient(to left, #debaa3, #9d997a);
-}
-
-div.call-circle:active {
-    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .4);
-}
-
-div.call-circle h2 {
-    align-self: center;
-    text-align: center;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-}
-
-/*gig location text color*/
-div.call-circle h2 a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 
 div.hero-main-text {
@@ -1359,3 +1320,4 @@ footer a {
         margin-left: -.8rem;
     }
 }
+
